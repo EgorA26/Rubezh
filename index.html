@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Рубеж" – Строительная компания</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Рубеж">
+                </a>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="object.html">Объекты</a></li>
+                        <li><a href="#">Вакансии</a></li> 
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+<div class="header__phone">
+    <a href="tel:+78001234567" class="phone-link">
+        <span class="phone-icon">📞</span>
+        +7 (800) 123-45-67
+    </a>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- Слайдер (Hero) -->
+    <section class="hero">
+        <div class="container">
+            <h1>ООО "РУБЕЖ"</h1>
+            <p>Строительная компания</p>
+            <button class="btn btn-large" onclick="scrollToForm()">Оставить заявку</button>
+        </div>
+    </section>
+    
+
+    
+
+    <!-- Преимущества -->
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__item">
+                <h3>10 лет</h3>
+                <p>на рынке</p>
+            </div>
+            <div class="advantages__item">
+                <h3>32</h3>
+                <p>реализованных проектов</p>
+            </div>
+            <div class="advantages__item">
+                <h3>106</h3>
+                <p>единиц техники</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services__grid">
+                <div class="service__item">
+                    <img src="images/dor.png" alt="Дорожные работы">
+                    <h3>Дорожные работы</h3>
+                    <p>Любой тип дорожного покрытия</p>
+                </div>
+                <div class="service__item">
+                    <img src="images/dem.png" alt="Ремонт">
+                    <h3>Демонтаж</h3>
+                    <p>Здания, сооружения</p>
+                </div>
+                <div class="service__item">
+                    <img src="images/com.png" alt="Коммерция">
+                    <h3>Коммерческие объекты</h3>
+                    <p>Заводы, офисы, склады</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Форма заявки -->
+     
+<section class="contact-form">
+    <section class="contact-form" id="application-form"></section>
+    <div class="container">
+        <h2>Оставьте заявку</h2>
+        <form class="wide-form">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="tel" placeholder="Телефон" required>
+            <select>
+                <option>Выберите услугу</option>
+                <option>Строительно-монтажные работы</option>
+                <option>Дорожные работы</option>
+                <option>Демонтаж</option>
+            </select>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <a href="/" class="logo">
+                        <img src="images/logo.png" alt="Рубеж">
+                    </a>
+                    <p>© 2025 ООО «Рубеж». Все права защищены.</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Контакты</h3>
+                    <p>г. Архангельск,ул. Дачная, д.61, к.1</p>
+                    <a href="tel:+78001234567">+7 (800) 123-11-11</a>
+                    <a href="mailto:info@rubezh-stroy.ru">info@rubezh.ru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
